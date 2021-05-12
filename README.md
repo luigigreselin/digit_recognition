@@ -6,7 +6,7 @@ In this competition, the goal was to correctly identify digits from a dataset of
 
 # Statistical analysis with ''traditional'' classifiers
 
-I compared random Nayve Baesyan classifier, logistic regression, KNN, decision tree, SVC, random forest and XGboost.
+I compared random Naive Baesyan classifier, logistic regression, KNN, decision tree, SVC, random forest and XGboost.
 Logistic regession, SVC, KNN and XGboost required too much time to be trained (Logistic regression failed multiple times to converge), due
 to the large anount of features (28*28 pixels per image). Random forest proved to be the best on training dataset, with an accuracy of
 96% on the cross validation score.
