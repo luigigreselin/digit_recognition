@@ -13,7 +13,13 @@ to the large anount of features (28*28 pixels per image). Random forest proved t
 
 # Statistical analysis with Keras CNN
 I created a CNN composed by two CL and 2 final dense layers. I added then 2 dropout layers inbetween the CL to reduce overfitting. In this
-second case I obtained an accuracy of 98.8 in my test dataset.
+second case I obtained an accuracy of 98.8 in my test dataset. Below you can see the summary of the CNN
+
+![](https://github.com/luigigreselin/digit_recognition/blob/main/CNN%20digit.PNG)
+
+and the validation curve. There was still some space of improvement, by running for more epochs the classifier
+
+![](https://github.com/luigigreselin/digit_recognition/blob/main/accuracy%20CNN.PNG)
 
 # Data
 Data can be found [here](https://www.kaggle.com/c/digit-recognizer) 
